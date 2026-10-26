@@ -1,0 +1,7 @@
+numpy>=1.26
+networkx>=3.2
+PyYAML>=6.0
+openai>=1.0
+python-dotenv>=1.0
+torch>=2.6
+transformers>=4.38

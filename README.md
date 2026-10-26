@@ -10,7 +10,7 @@ Use Python 3.10 or newer. Install the dependencies (choose a PyTorch build appro
 pip install -r requirements.txt
 ```
 
-Copy `.env.example` to `.env` and set `OPENAI_API_KEY`. If your chat model is served by an OpenAI-compatible provider, set `OPENAI_BASE_URL` as well. Edit `llm.model` in `configs/example.yaml` to the model available at that endpoint. The example embedding model is downloaded from Hugging Face on first use; `cognition.embedding_model` may instead point to a local compatible model directory.
+Set `OPENAI_API_KEY` in `.env`. If your chat model is served by an OpenAI-compatible provider, set `OPENAI_BASE_URL` as well. Edit `llm.model` in `configs/example.yaml` to the model available at that endpoint. The example embedding model is downloaded from Hugging Face on first use; `cognition.embedding_model` may instead point to a local compatible model directory.
 
 ## Run the synthetic example
 
